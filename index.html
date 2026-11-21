@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Parkinson Selbsthilfegruppe Parchim</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&family=Source+Serif+4:wght@500;700&display=swap">
+<style>
+:root{--bg:#FAFBFC;--surface:#FFFFFF;--band:#E9EFF5;--ink:#1B2733;--muted:#4A5967;--navy:#1F3A5F;--tulip:#A62B34;--line:#CBD5DF;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121A23;--surface:#1A2530;--band:#1D2B3A;--ink:#E8EEF4;--muted:#AEBBC8;--navy:#9DBBE0;--tulip:#E0777E;--line:#34475A;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121A23;--surface:#1A2530;--band:#1D2B3A;--ink:#E8EEF4;--muted:#AEBBC8;--navy:#9DBBE0;--tulip:#E0777E;--line:#34475A;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.1875rem/1.65 "Source Sans 3",Verdana,sans-serif}
+h1,h2,h3{font-family:"Source Serif 4",Georgia,serif;color:var(--navy);line-height:1.2;margin:0 0 .6em}
+h1{font-size:clamp(2.1rem,5.5vw,3.4rem);font-weight:700}
+h2{font-size:clamp(1.6rem,3.5vw,2.2rem);font-weight:700}
+h3{font-size:1.3rem;font-weight:500}
+p{margin:0 0 1em;max-width:64ch}
+a{color:var(--navy)}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--tulip);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 1.25rem}
+header.top{border-bottom:1px solid var(--line);background:var(--surface)}
+header.top .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.5rem 1.5rem;padding-top:.9rem;padding-bottom:.9rem}
+.brand{font-family:"Source Serif 4",Georgia,serif;font-weight:700;color:var(--navy);text-decoration:none;font-size:1.15rem}
+nav{display:flex;flex-wrap:wrap;gap:.25rem 1.4rem}
+nav a{text-decoration:none;font-weight:600;padding:.35rem 0;border-bottom:2px solid transparent}
+nav a:hover{border-color:var(--tulip)}
+.hero{padding:4rem 0 3.5rem}
+.hero .wrap{border-left:6px solid var(--tulip);padding-left:1.5rem;margin-left:max(1.25rem,calc((100% - 1040px)/2 + 1.25rem));max-width:780px}
+.hero p.lead{font-size:1.35rem;color:var(--muted)}
+.btn{display:inline-block;background:var(--navy);color:var(--bg);padding:.8rem 1.5rem;border-radius:4px;text-decoration:none;font-weight:600;margin-top:.5rem}
+.btn:hover{background:var(--tulip);color:#fff}
+section{padding:3.5rem 0}
+section.alt{background:var(--band)}
+.grid{display:grid;gap:1.5rem;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-top:1.5rem}
+.card{background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--navy);padding:1.4rem 1.5rem}
+.card p{margin:0;font-size:1.05rem}
+dl.facts{display:grid;grid-template-columns:max-content 1fr;gap:.7rem 1.5rem;margin:1.5rem 0;background:var(--surface);border:1px solid var(--line);padding:1.4rem 1.6rem}
+dl.facts dt{font-weight:600;color:var(--navy)}
+dl.facts dd{margin:0}
+@media (max-width:560px){dl.facts{grid-template-columns:1fr;gap:.1rem}dl.facts dd{margin-bottom:.8rem}}
+.todo{background:#FFF3C4;color:#4A3B00;padding:0 .3em;border-radius:2px}
+details{background:var(--surface);border:1px solid var(--line);margin-bottom:.8rem}
+summary{cursor:pointer;padding:1rem 1.3rem;font-weight:600;color:var(--navy)}
+details p{padding:0 1.3rem;margin:0 0 1rem}
+.note{border-left:4px solid var(--navy);padding:.2rem 0 .2rem 1.2rem;color:var(--muted);max-width:64ch}
+footer{border-top:1px solid var(--line);padding:2rem 0;font-size:1rem;color:var(--muted)}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:1rem}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="top">
+ <div class="wrap">
+  <a class="brand" href="#start">Parkinson Selbsthilfegruppe Parchim</a>
+  <nav aria-label="Hauptmenü">
+   <a href="#angebot">Unsere Arbeit</a>
+   <a href="#treffen">Treffen</a>
+   <a href="#fragen">Fragen</a>
+   <a href="#kontakt">Kontakt</a>
+  </nav>
+ </div>
+</header>
+
+<main id="start">
+ <div class="hero">
+  <div class="wrap">
+   <h1>Gemeinsam mit Parkinson leben</h1>
+   <p class="lead">Wir sind eine Selbsthilfegruppe in Parchim für Menschen mit Parkinson und ihre Angehörigen. Wir hören zu, tauschen Erfahrungen aus und unterstützen uns gegenseitig im Alltag.</p>
+   <a class="btn" href="#kontakt">Kontakt aufnehmen</a>
+  </div>
+ </div>
+
+ <section class="alt" id="angebot">
+  <div class="wrap">
+   <h2>Was wir tun</h2>
+   <p>Die Diagnose Parkinson wirft viele Fragen auf. In unserer Gruppe finden Betroffene und Angehörige Menschen, die ihre Situation aus eigener Erfahrung kennen.</p>
+   <div class="grid">
+    <div class="card"><h3>Erfahrungsaustausch</h3><p>Wir sprechen offen über den Alltag mit der Erkrankung, über Sorgen ebenso wie über das, was uns hilft.</p></div>
+    <div class="card"><h3>Information</h3><p>Wir laden Fachleute zu Vorträgen ein und informieren über Therapien, Hilfsangebote und Neuigkeiten.</p></div>
+    <div class="card"><h3>Angehörige im Blick</h3><p>Auch Partnerinnen, Partner und Familie sind willkommen. Sie tragen viel mit und finden bei uns ein offenes Ohr.</p></div>
+    <div class="card"><h3>Gemeinsame Aktivitäten</h3><p>Ob Ausflug, Bewegung oder Feier: Gemeinsame Zeit stärkt und tut gut. <span class="todo">[Eigene Aktivitäten ergänzen]</span></p></div>
+   </div>
+  </div>
+ </section>
+
+ <section id="treffen">
+  <div class="wrap">
+   <h2>Unsere Treffen</h2>
+   <p>Wir treffen uns regelmäßig in Parchim. Sie können unverbindlich vorbeikommen und die Gruppe kennenlernen. Eine Anmeldung ist nicht nötig.</p>
+   <dl class="facts">
+    <dt>Wann</dt><dd><span class="todo">[Wochentag, Rhythmus und Uhrzeit]</span></dd>
+    <dt>Wo</dt><dd><span class="todo">[Name des Treffpunkts, Straße, Parchim]</span></dd>
+    <dt>Für wen</dt><dd>Menschen mit Parkinson und ihre Angehörigen</dd>
+    <dt>Kosten</dt><dd><span class="todo">[z. B. kostenfrei]</span></dd>
+   </dl>
+  </div>
+ </section>
+
+ <section class="alt" id="fragen">
+  <div class="wrap">
+   <h2>Häufige Fragen</h2>
+   <details><summary>Muss ich Mitglied werden?</summary><p><span class="todo">[Angaben zur Mitgliedschaft ergänzen]</span></p></details>
+   <details><summary>Muss ich etwas erzählen, wenn ich zum ersten Mal komme?</summary><p>Nein. Sie können zunächst einfach zuhören. Was Sie von sich erzählen, entscheiden Sie selbst.</p></details>
+   <details><summary>Dürfen Angehörige mitkommen?</summary><p>Ja, Angehörige sind ausdrücklich willkommen.</p></details>
+   <details><summary>Ersetzt die Gruppe eine ärztliche Behandlung?</summary><p>Nein. Wir geben keine medizinischen Ratschläge. Die Gruppe ergänzt die Behandlung durch Ihre Ärztin oder Ihren Arzt.</p></details>
+  </div>
+ </section>
+
+ <section id="kontakt">
+  <div class="wrap">
+   <h2>Kontakt</h2>
+   <p>Wir freuen uns, wenn Sie sich bei uns melden, auch bei Fragen vor dem ersten Besuch.</p>
+   <dl class="facts">
+    <dt>Ansprechperson</dt><dd><span class="todo">[Name]</span></dd>
+    <dt>Telefon</dt><dd><span class="todo">[Telefonnummer]</span></dd>
+    <dt>E-Mail</dt><dd><span class="todo">[E-Mail-Adresse]</span></dd>
+   </dl>
+   <p class="note">Weitere Informationen zu Parkinson und zur Selbsthilfe bietet die Deutsche Parkinson Vereinigung: <a href="https://www.parkinson-vereinigung.de" rel="noopener">parkinson-vereinigung.de</a></p>
+  </div>
+ </section>
+</main>
+
+<footer>
+ <div class="wrap">
+  <span>© 2026 Parkinson Selbsthilfegruppe Parchim</span>
+  <span><span class="todo">[Impressum und Datenschutz verlinken]</span></span>
+ </div>
+</footer>
+</body>
+</html>
